@@ -28,3 +28,4 @@
 [2026-05-20 22:20:28] Commit #28: test: improve test coverage of payment integration module
 [2026-05-20 22:20:28] Commit #29: feat: introduce security filter chain
 [2026-05-20 22:20:28] Commit #30: test: fix failing tests in security filter chain
+[2026-05-20 22:20:29] Commit #31: docs: improve file upload validation handling missing query parameters gracefully
