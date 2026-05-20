@@ -91,3 +91,4 @@
 [2026-05-20 22:20:36] Commit #91: fix: resolve issue with booking management system
 [2026-05-20 22:20:36] Commit #92: fix: fix bug in error page handler
 [2026-05-20 22:20:36] Commit #93: docs: document user authentication flow
+[2026-05-20 22:20:36] Commit #94: fix: correct behavior of wishlist management controller
