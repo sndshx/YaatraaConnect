@@ -121,3 +121,4 @@
 [2026-05-20 22:20:39] Commit #121: fix: fix bug in file upload validation
 [2026-05-20 22:20:40] Commit #122: style: remove trailing whitespaces in payment integration module
 [2026-05-20 22:20:40] Commit #123: fix: resolve issue with wishlist management controller handling missing query parameters gracefully
+[2026-05-20 22:20:40] Commit #124: style: improve booking management system to enhance user experience
