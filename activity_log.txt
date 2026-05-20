@@ -34,3 +34,4 @@
 [2026-05-20 22:20:29] Commit #34: perf: improve file upload validation handling missing query parameters gracefully
 [2026-05-20 22:20:29] Commit #35: fix: fix bug in agency dashboard panel securing private customer data
 [2026-05-20 22:20:29] Commit #36: test: fix failing tests in JSP frontend templates
+[2026-05-20 22:20:29] Commit #37: docs: add instructions for package search algorithm
