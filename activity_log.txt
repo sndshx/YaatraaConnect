@@ -88,3 +88,4 @@
 [2026-05-20 22:20:36] Commit #88: docs: improve booking management system improving code readability for developers
 [2026-05-20 22:20:36] Commit #89: feat: improve wishlist management controller aligning with latest industry standards
 [2026-05-20 22:20:36] Commit #90: refactor: simplify logic in email notification system
+[2026-05-20 22:20:36] Commit #91: fix: resolve issue with booking management system
