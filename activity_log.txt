@@ -55,3 +55,4 @@
 [2026-05-21 12:18:31] Commit #55: feat: improve wishlist management controller addressing PR review feedback
 [2026-05-21 12:18:31] Commit #56: refactor: streamline logger configuration
 [2026-05-21 12:18:31] Commit #57: test: improve wishlist management controller resolving edge case exceptions
+[2026-05-21 12:18:31] Commit #58: fix: debug error page handler
