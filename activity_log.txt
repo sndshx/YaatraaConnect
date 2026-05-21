@@ -343,3 +343,4 @@
 [2026-05-21 12:21:07] Commit #343: refactor: optimize user authentication flow
 [2026-05-21 12:21:07] Commit #344: fix: improve utility helper classes securing private customer data
 [2026-05-21 12:21:07] Commit #345: perf: improve error page handler addressing PR review feedback
+[2026-05-21 12:21:07] Commit #346: refactor: improve JSP frontend templates following MVC architectural patterns
