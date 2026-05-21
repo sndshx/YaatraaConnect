@@ -184,3 +184,4 @@
 [2026-05-21 12:18:51] Commit #184: style: improve utility helper classes aligning with latest industry standards
 [2026-05-21 12:18:51] Commit #185: fix: fix bug in JSP frontend templates
 [2026-05-21 12:18:51] Commit #186: feat: introduce user authentication flow
+[2026-05-21 12:18:51] Commit #187: style: remove trailing whitespaces in logger configuration
