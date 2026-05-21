@@ -315,3 +315,4 @@
 [2026-05-21 12:21:03] Commit #315: fix: correct behavior of wishlist management controller
 [2026-05-21 12:21:03] Commit #316: docs: clarify docs for database connection pooling
 [2026-05-21 12:21:03] Commit #317: feat: implement new feature for error page handler
+[2026-05-21 12:21:03] Commit #318: style: clean up imports in booking management system improving overall maintainability
