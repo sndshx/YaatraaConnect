@@ -333,3 +333,4 @@
 [2026-05-21 12:21:05] Commit #333: test: improve test coverage of logger configuration
 [2026-05-21 12:21:05] Commit #334: test: improve database connection pooling addressing PR review feedback
 [2026-05-21 12:21:06] Commit #335: docs: improve comments in wishlist management controller
+[2026-05-21 12:21:06] Commit #336: docs: improve database connection pooling handling missing query parameters gracefully
