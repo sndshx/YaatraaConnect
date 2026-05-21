@@ -1,7 +1,7 @@
 package com.yatraconnect.controller;
 
-import com.yatraconnect.dao.TravellerDAO;
-import com.yatraconnect.model.HamroTraveller;
+import com.yatraconnect.dao.AgentDAO;
+import com.yatraconnect.model.HamroAgent;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -13,14 +13,14 @@ import jakarta.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet({"/admin/users", "/admin/users/*"})
-public class AdminUserServlet extends HttpServlet {
-    private TravellerDAO travellerDAO;
+@WebServlet({"/admin/agencies", "/admin/agencies/*"})
+public class VerifyAgencyServlet extends HttpServlet {
+    private AgentDAO agentDAO;
 
     @Override
     public void init() throws ServletException {
         super.init();
-        travellerDAO = new TravellerDAO();
+        agentDAO = new AgentDAO();
     }
 
     @Override
@@ -33,9 +33,18 @@ public class AdminUserServlet extends HttpServlet {
             return;
         }
 
-        List<HamroTraveller> users = travellerDAO.getAllTravellers();
-        request.setAttribute("users", users);
-        request.getRequestDispatcher("/admin/manage-users.jsp").forward(request, response);
+        String filter = request.getParameter("filter");
+
+        List<HamroAgent> agencies;
+        if (filter != null && !filter.isEmpty()) {
+            agencies = agentDAO.getAgentsByVerificationStatus(filter);
+        } else {
+            agencies = agentDAO.getAllAgents();
+        }
+
+        request.setAttribute("agencies", agencies);
+        request.setAttribute("currentFilter", filter != null ? filter : "all");
+        request.getRequestDispatcher("/admin/verifyAgencies.jsp").forward(request, response);
     }
 
     @Override
@@ -49,29 +58,29 @@ public class AdminUserServlet extends HttpServlet {
         }
 
         String action = request.getParameter("action");
-        String userId = request.getParameter("userId");
+        String agentId = request.getParameter("agentId");
 
         boolean success = false;
         String message = "";
 
         switch (action) {
+            case "approve":
+                success = agentDAO.updateVerificationStatus(agentId, "verified", true);
+                message = success ? "Agency approved successfully." : "Failed to approve agency.";
+                break;
+            case "reject":
+                success = agentDAO.updateVerificationStatus(agentId, "rejected", false);
+                message = success ? "Agency rejected." : "Failed to reject agency.";
+                break;
             case "delete":
-                success = travellerDAO.deleteTraveller(userId);
-                message = success ? "User deleted successfully." : "Failed to delete user.";
-                break;
-            case "suspend":
-                success = travellerDAO.suspendTraveller(userId);
-                message = success ? "User suspended." : "Failed to suspend user.";
-                break;
-            case "activate":
-                success = travellerDAO.activateTraveller(userId);
-                message = success ? "User activated." : "Failed to activate user.";
+                success = agentDAO.deleteAgent(agentId);
+                message = success ? "Agency deleted." : "Failed to delete agency.";
                 break;
             default:
                 message = "Invalid action.";
         }
 
         request.getSession().setAttribute(success ? "successMessage" : "errorMessage", message);
-        response.sendRedirect(request.getContextPath() + "/admin/users/");
+        response.sendRedirect(request.getContextPath() + "/admin/agencies/");
     }
 }
