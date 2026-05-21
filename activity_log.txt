@@ -217,3 +217,4 @@
 [2026-05-21 12:20:49] Commit #217: refactor: refactor structure of JSP frontend templates following MVC architectural patterns
 [2026-05-21 12:20:49] Commit #218: feat: add support for error page handler
 [2026-05-21 12:20:49] Commit #219: refactor: restructure booking management system
+[2026-05-21 12:20:49] Commit #220: test: improve logger configuration aligning with latest industry standards
