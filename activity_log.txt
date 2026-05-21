@@ -379,3 +379,4 @@
 [2026-05-21 12:21:13] Commit #379: perf: improve loading times for security filter chain handling missing query parameters gracefully
 [2026-05-21 12:21:13] Commit #380: fix: improve utility helper classes aligning with latest industry standards
 [2026-05-21 12:21:13] Commit #381: fix: correct behavior of JSP frontend templates
+[2026-05-21 12:21:13] Commit #382: fix: improve file upload validation improving code readability for developers
