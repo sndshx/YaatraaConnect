@@ -373,3 +373,4 @@
 [2026-05-21 12:21:12] Commit #373: fix: prevent error in booking management system
 [2026-05-21 12:21:12] Commit #374: feat: improve agency dashboard panel to enhance user experience
 [2026-05-21 12:21:12] Commit #375: perf: speed up execution of package search algorithm
+[2026-05-21 12:21:12] Commit #376: refactor: improve utility helper classes aligning with latest industry standards
