@@ -48,6 +48,7 @@ CREATE TABLE IF NOT EXISTS HamroTravellers (
     savedItineraries JSON,
     googleId VARCHAR(255),
     authProvider VARCHAR(50) DEFAULT 'local',
+    profileImage VARCHAR(500),
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
