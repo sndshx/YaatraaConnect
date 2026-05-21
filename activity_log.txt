@@ -311,3 +311,4 @@
 [2026-05-21 12:21:02] Commit #311: test: improve file upload validation handling missing query parameters gracefully
 [2026-05-21 12:21:02] Commit #312: feat: develop setup for security filter chain
 [2026-05-21 12:21:02] Commit #313: style: remove trailing whitespaces in JSP frontend templates
+[2026-05-21 12:21:02] Commit #314: refactor: restructure logger configuration
