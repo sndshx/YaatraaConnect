@@ -151,3 +151,4 @@
 [2026-05-21 12:18:46] Commit #151: style: format code for agency dashboard panel
 [2026-05-21 12:18:46] Commit #152: feat: improve booking management system securing private customer data
 [2026-05-21 12:18:46] Commit #153: docs: improve comments in JSP frontend templates
+[2026-05-21 12:18:46] Commit #154: refactor: improve security filter chain resolving edge case exceptions
