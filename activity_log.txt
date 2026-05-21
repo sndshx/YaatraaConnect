@@ -98,3 +98,4 @@
 [2026-05-21 12:18:38] Commit #98: fix: correct behavior of booking management system resolving edge case exceptions
 [2026-05-21 12:18:38] Commit #99: docs: improve comments in wishlist management controller
 [2026-05-21 12:18:38] Commit #100: fix: improve email notification system boosting response latency by 15%
+[2026-05-21 12:18:38] Commit #101: docs: add instructions for file upload validation to enhance user experience
