@@ -178,3 +178,4 @@
 [2026-05-21 12:18:50] Commit #178: test: improve user authentication flow securing private customer data
 [2026-05-21 12:18:50] Commit #179: refactor: refactor structure of JSP frontend templates
 [2026-05-21 12:18:50] Commit #180: perf: improve loading times for error page handler
+[2026-05-21 12:18:50] Commit #181: refactor: improve utility helper classes handling missing query parameters gracefully
