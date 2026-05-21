@@ -364,3 +364,4 @@
 [2026-05-21 12:21:10] Commit #364: style: improve JSP frontend templates aligning with latest industry standards
 [2026-05-21 12:21:10] Commit #365: perf: improve database connection pooling improving code readability for developers
 [2026-05-21 12:21:11] Commit #366: feat: implement new feature for booking management system
+[2026-05-21 12:21:11] Commit #367: feat: enable JSP frontend templates handling missing query parameters gracefully
