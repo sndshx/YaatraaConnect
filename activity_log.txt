@@ -383,3 +383,4 @@
 [2026-05-21 12:21:13] Commit #383: test: improve test coverage of error page handler
 [2026-05-21 12:21:14] Commit #384: fix: fix bug in booking management system resolving edge case exceptions
 [2026-05-21 12:21:14] Commit #385: docs: document email notification system improving code readability for developers
+[2026-05-21 12:21:14] Commit #386: test: improve email notification system following MVC architectural patterns
