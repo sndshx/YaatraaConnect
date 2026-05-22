@@ -1,3 +1,4 @@
+package com.yatraconnect.util;
 
 import org.mindrot.jbcrypt.BCrypt;
 
